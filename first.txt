@@ -1,1 +1,5 @@
 this is the test
+
+SQL: LIKE checks string data so do not use for dates (converts dates to string)
+Order of execution is: FROM - WHERE - GROUP BY - HAVING - SELECT - ORDER BY
+INNER JOIN ignores lines with Null values
